@@ -13,3 +13,5 @@ MANIFEST.bak
 *.tar.gz
 .carton/
 local/
+*.pyc
+*~

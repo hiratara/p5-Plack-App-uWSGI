@@ -11,6 +11,8 @@ tests 't/*.t';
 author_tests 'xt';
 
 test_requires 'Test::More';
+test_requires 'Test::TCP' => '1.13';
+test_requires 'HTTP::Message' => '6.02';
 auto_set_repository;
 auto_include;
 WriteAll;
