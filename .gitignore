@@ -11,3 +11,5 @@ MANIFEST.bak
 *.sw[po]
 .bak
 *.tar.gz
+.carton/
+local/

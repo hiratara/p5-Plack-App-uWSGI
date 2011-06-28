@@ -1,0 +1,930 @@
+{
+   "perl" : "5.012002",
+   "modules" : {
+      "Test::Requires" : {
+         "provides" : {
+            "Test::Requires" : "0.06"
+         },
+         "version" : "0.06",
+         "name" : "Test::Requires",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.61",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "Test-Requires-0.06",
+         "pathname" : "T/TO/TOKUHIROM/Test-Requires-0.06.tar.gz",
+         "module" : "Test::Requires"
+      },
+      "LWP::MediaTypes" : {
+         "provides" : {
+            "LWP::MediaTypes" : "6.01"
+         },
+         "version" : "6.01",
+         "name" : "LWP::MediaTypes",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {}
+         },
+         "dist" : "LWP-MediaTypes-6.01",
+         "pathname" : "G/GA/GAAS/LWP-MediaTypes-6.01.tar.gz",
+         "module" : "LWP::MediaTypes"
+      },
+      "Test::Simple" : {
+         "provides" : {
+            "Test::More" : "0.98",
+            "Test::Builder" : "0.98",
+            "Test::Builder::IO::Scalar" : "2.110",
+            "Test::Simple" : "0.98",
+            "Test::Builder::Tester::Color" : "1.22",
+            "Test::Builder::Tester::Tie" : 0,
+            "Test::Builder::Tester" : "1.22",
+            "Test::Builder::Module" : "0.98"
+         },
+         "version" : "0.98",
+         "name" : "Test::Simple",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Test::Harness" : "2.03"
+            }
+         },
+         "dist" : "Test-Simple-0.98",
+         "pathname" : "M/MS/MSCHWERN/Test-Simple-0.98.tar.gz",
+         "module" : "Test::More"
+      },
+      "Encode::Locale" : {
+         "provides" : {
+            "Encode::Locale" : "1.02"
+         },
+         "version" : "1.02",
+         "name" : "Encode::Locale",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Test" : "0",
+               "Encode::Alias" : "0",
+               "Encode" : "2"
+            }
+         },
+         "dist" : "Encode-Locale-1.02",
+         "pathname" : "G/GA/GAAS/Encode-Locale-1.02.tar.gz",
+         "module" : "Encode::Locale"
+      },
+      "Test::NoWarnings" : {
+         "provides" : {
+            "Test::NoWarnings::Warning" : "1.02",
+            "Test::NoWarnings" : "1.02"
+         },
+         "version" : "1.02",
+         "name" : "Test::NoWarnings",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Test::More" : "0.47",
+               "Test::Builder" : "0.86",
+               "Test::Tester" : "0.107"
+            }
+         },
+         "dist" : "Test-NoWarnings-1.02",
+         "pathname" : "A/AD/ADAMK/Test-NoWarnings-1.02.tar.gz",
+         "module" : "Test::NoWarnings"
+      },
+      "HTTP::Negotiate" : {
+         "provides" : {
+            "HTTP::Negotiate" : "6.00"
+         },
+         "version" : "6.00",
+         "name" : "HTTP::Negotiate",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "HTTP::Headers" : "6"
+            }
+         },
+         "dist" : "HTTP-Negotiate-6.00",
+         "pathname" : "G/GA/GAAS/HTTP-Negotiate-6.00.tar.gz",
+         "module" : "HTTP::Negotiate"
+      },
+      "File::Listing" : {
+         "provides" : {
+            "File::Listing::apache" : 0,
+            "File::Listing::netware" : 0,
+            "File::Listing::unix" : 0,
+            "File::Listing::dosftp" : 0,
+            "File::Listing::vms" : 0,
+            "File::Listing" : "6.02"
+         },
+         "version" : "6.02",
+         "name" : "File::Listing",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "HTTP::Date" : "6"
+            }
+         },
+         "dist" : "File-Listing-6.02",
+         "pathname" : "G/GA/GAAS/File-Listing-6.02.tar.gz",
+         "module" : "File::Listing"
+      },
+      "Test::TCP" : {
+         "provides" : {
+            "Test::TCP" : "1.13"
+         },
+         "version" : "1.13",
+         "name" : "Test::TCP",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.98",
+               "IO::Socket::INET" : "0",
+               "ExtUtils::MakeMaker" : "6.42",
+               "Test::SharedFork" : "0.14"
+            }
+         },
+         "dist" : "Test-TCP-1.13",
+         "pathname" : "T/TO/TOKUHIROM/Test-TCP-1.13.tar.gz",
+         "module" : "Test::TCP"
+      },
+      "File::ShareDir" : {
+         "provides" : {
+            "File::ShareDir" : "1.03"
+         },
+         "version" : "1.03",
+         "name" : "File::ShareDir",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.47",
+               "File::Spec" : "0.80",
+               "ExtUtils::MakeMaker" : "6.42",
+               "Class::Inspector" : "1.12",
+               "Carp" : "0"
+            }
+         },
+         "dist" : "File-ShareDir-1.03",
+         "pathname" : "A/AD/ADAMK/File-ShareDir-1.03.tar.gz",
+         "module" : "File::ShareDir"
+      },
+      "HTTP::Daemon" : {
+         "provides" : {
+            "HTTP::Daemon" : "6.00",
+            "HTTP::Daemon::ClientConn" : 0
+         },
+         "version" : "6.00",
+         "name" : "HTTP::Daemon",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "HTTP::Response" : "6",
+               "IO::Socket" : "0",
+               "LWP::MediaTypes" : "6",
+               "HTTP::Status" : "6",
+               "HTTP::Request" : "6",
+               "HTTP::Date" : "6",
+               "Sys::Hostname" : "0"
+            }
+         },
+         "dist" : "HTTP-Daemon-6.00",
+         "pathname" : "G/GA/GAAS/HTTP-Daemon-6.00.tar.gz",
+         "module" : "HTTP::Daemon"
+      },
+      "Test::Deep" : {
+         "provides" : {
+            "Test::Deep::Regexp" : 0,
+            "Test::Deep::MM" : 0,
+            "Test::Deep::SubHash" : 0,
+            "Test::Deep::SubHashKeys" : 0,
+            "Test::Deep::ArrayLength" : 0,
+            "Test::Deep::SubHashKeysOnly" : 0,
+            "Test::Deep::ListMethods" : 0,
+            "Test::Deep::HashKeysOnly" : 0,
+            "Test::Deep" : "0.108",
+            "Test::Deep::SuperHashKeysOnly" : 0,
+            "Test::Deep::SuperHashKeys" : 0,
+            "Test::Deep::Cache" : 0,
+            "Test::Deep::String" : 0,
+            "Test::Deep::Ref" : 0,
+            "Test::Deep::Hash" : 0,
+            "Test::Deep::ArrayElementsOnly" : 0,
+            "Test::Deep::RegexpMatches" : 0,
+            "Test::Deep::RefType" : 0,
+            "Test::Deep::HashKeys" : 0,
+            "Test::Deep::ScalarRefOnly" : 0,
+            "Test::Deep::Cmp" : 0,
+            "Test::Deep::RegexpVersion" : 0,
+            "Test::Deep::HashElements" : 0,
+            "Test::Deep::RegexpRefOnly" : 0,
+            "Test::Deep::Code" : 0,
+            "Test::Deep::Blessed" : 0,
+            "Test::Deep::SubHashElements" : 0,
+            "Test::Deep::HashEach" : 0,
+            "Test::Deep::Ignore" : 0,
+            "Test::Deep::Stack" : 0,
+            "Test::Deep::RegexpRef" : 0,
+            "Test::Deep::Number" : 0,
+            "Test::Deep::Cache::Simple" : 0,
+            "Test::Deep::Methods" : 0,
+            "Test::Deep::SuperHashElements" : 0,
+            "Test::Deep::Isa" : 0,
+            "Test::Deep::SuperHash" : 0,
+            "Test::Deep::Array" : 0,
+            "Test::Deep::Any" : 0,
+            "Test::Deep::NoTest" : 0,
+            "Test::Deep::Class" : 0,
+            "Test::Deep::Set" : 0,
+            "Test::Deep::ScalarRef" : 0,
+            "Test::Deep::ArrayEach" : 0,
+            "Test::Deep::All" : 0,
+            "Test::Deep::Boolean" : 0,
+            "Test::Deep::ArrayLengthOnly" : 0,
+            "Test::Deep::Shallow" : 0
+         },
+         "version" : "0.108",
+         "name" : "Test::Deep",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "List::Util" : "1.09",
+               "Scalar::Util" : "1.09",
+               "Test::More" : "0",
+               "Test::Tester" : "0.04",
+               "Test::NoWarnings" : "0.02"
+            }
+         },
+         "dist" : "Test-Deep-0.108",
+         "pathname" : "R/RJ/RJBS/Test-Deep-0.108.tar.gz",
+         "module" : "Test::Deep"
+      },
+      "Test::SharedFork" : {
+         "provides" : {
+            "Test::SharedFork::Store" : 0,
+            "Test::SharedFork::Array" : 0,
+            "Test::SharedFork::Scalar" : 0,
+            "Test::SharedFork" : "0.16"
+         },
+         "version" : "0.16",
+         "name" : "Test::SharedFork",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.88",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "Test-SharedFork-0.16",
+         "pathname" : "T/TO/TOKUHIROM/Test-SharedFork-0.16.tar.gz",
+         "module" : "Test::SharedFork"
+      },
+      "Try::Tiny" : {
+         "provides" : {
+            "Try::Tiny" : "0.09"
+         },
+         "version" : "0.09",
+         "name" : "Try::Tiny",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Test::More" : "0"
+            }
+         },
+         "dist" : "Try-Tiny-0.09",
+         "pathname" : "D/DO/DOY/Try-Tiny-0.09.tar.gz",
+         "module" : "Try::Tiny"
+      },
+      "Net::HTTP" : {
+         "provides" : {
+            "Net::HTTP" : "6.01",
+            "Net::HTTPS" : "6.00",
+            "Net::HTTP::NB" : "6.00",
+            "Net::HTTP::Methods" : "6.00"
+         },
+         "version" : "6.01",
+         "name" : "Net::HTTP",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "IO::Select" : "0",
+               "IO::Compress::Gzip" : "0",
+               "IO::Socket::INET" : "0",
+               "Compress::Raw::Zlib" : "0"
+            }
+         },
+         "dist" : "Net-HTTP-6.01",
+         "pathname" : "G/GA/GAAS/Net-HTTP-6.01.tar.gz",
+         "module" : "Net::HTTP"
+      },
+      "Hash::MultiValue" : {
+         "provides" : {
+            "Hash::MultiValue" : "0.09"
+         },
+         "version" : "0.09",
+         "name" : "Hash::MultiValue",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0",
+               "Filter::Util::Call" : "0",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "Hash-MultiValue-0.09",
+         "pathname" : "M/MI/MIYAGAWA/Hash-MultiValue-0.09.tar.gz",
+         "module" : "Hash::MultiValue"
+      },
+      "URI" : {
+         "provides" : {
+            "URI::mailto" : 0,
+            "URI::QueryParam" : 0,
+            "URI::file::Mac" : 0,
+            "URI::rtsp" : 0,
+            "URI::urn::oid" : 0,
+            "URI::https" : 0,
+            "URI::file" : "4.20",
+            "URI::sips" : 0,
+            "URI::file::Base" : 0,
+            "URI::rtspu" : 0,
+            "URI::urn::isbn" : 0,
+            "URI::tn3270" : 0,
+            "URI::rlogin" : 0,
+            "URI::mms" : 0,
+            "URI::gopher" : 0,
+            "URI::ldap" : "1.11",
+            "URI::Split" : 0,
+            "URI::data" : 0,
+            "URI::ldaps" : 0,
+            "URI::ssh" : 0,
+            "URI::file::OS2" : 0,
+            "URI::WithBase" : "2.19",
+            "URI::ftp" : 0,
+            "URI::Escape" : "3.30",
+            "URI::file::Win32" : 0,
+            "URI::Heuristic" : "4.19",
+            "URI::file::QNX" : 0,
+            "URI::urn" : 0,
+            "URI::sip" : "0.10",
+            "URI::nntp" : 0,
+            "URI::file::Unix" : 0,
+            "URI" : "1.58",
+            "URI::http" : 0,
+            "URI::telnet" : 0,
+            "URI::file::FAT" : 0,
+            "URI::rsync" : 0,
+            "URI::IRI" : 0,
+            "URI::ldapi" : 0,
+            "URI::snews" : 0,
+            "URI::URL" : "5.03",
+            "URI::pop" : 0,
+            "URI::news" : 0
+         },
+         "version" : "1.58",
+         "name" : "URI",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Test::More" : "0",
+               "MIME::Base64" : "2",
+               "ExtUtils::MakeMaker" : "0",
+               "Test" : "0"
+            }
+         },
+         "dist" : "URI-1.58",
+         "pathname" : "G/GA/GAAS/URI-1.58.tar.gz",
+         "module" : "URI"
+      },
+      "AnyEvent" : {
+         "provides" : {
+            "AnyEvent::Strict" : 0,
+            "AnyEvent::Impl::EventLib" : 0,
+            "AnyEvent::CondVar" : 0,
+            "AnyEvent::TLS" : 0,
+            "AnyEvent::Impl::Qt::Io" : 0,
+            "AnyEvent::Impl::Tk" : 0,
+            "AnyEvent::Impl::Irssi" : 0,
+            "AnyEvent::Impl::IOAsync" : 0,
+            "AnyEvent::CondVar::Base" : 0,
+            "AnyEvent::Util" : 0,
+            "AnyEvent::Base" : 0,
+            "AnyEvent::Impl::Qt" : 0,
+            "AnyEvent::Handle" : 0,
+            "AnyEvent::Impl::Cocoa" : 0,
+            "AnyEvent::Impl::Perl" : 0,
+            "AnyEvent" : "5.34",
+            "AnyEvent::DNS" : 0,
+            "AnyEvent::Impl::Qt::Timer" : 0,
+            "AnyEvent::Debug::shell" : 0,
+            "AnyEvent::Impl::EV" : 0,
+            "AnyEvent::Debug" : 0,
+            "AnyEvent::Impl::Event" : 0,
+            "AnyEvent::Impl::POE" : 0,
+            "AnyEvent::Socket" : 0,
+            "AE" : 0,
+            "AnyEvent::Impl::Glib" : 0
+         },
+         "version" : "5.34",
+         "name" : "AnyEvent",
+         "requires" : {
+            "configure" : {},
+            "build" : {}
+         },
+         "dist" : "AnyEvent-5.34",
+         "pathname" : "M/ML/MLEHMANN/AnyEvent-5.34.tar.gz",
+         "module" : "AnyEvent"
+      },
+      "Plack" : {
+         "provides" : {
+            "Plack::App::Cascade" : 0,
+            "Plack::Middleware::Static" : 0,
+            "HTTP::Message::PSGI" : 0,
+            "Plack::Middleware::Runtime" : 0,
+            "Plack::TempBuffer::PerlIO" : 0,
+            "Plack::Middleware::NullLogger" : 0,
+            "Plack::Handler::Apache2::Registry" : 0,
+            "Plack::Test" : 0,
+            "Plack::Middleware::ErrorDocument" : 0,
+            "Plack::Request" : "0.9980",
+            "Plack::Handler::Apache1" : 0,
+            "Plack::App::WrapCGI" : 0,
+            "Plack::Handler::HTTP::Server::Simple" : 0,
+            "Plack::Loader::Delayed" : 0,
+            "Plack::HTTPParser::PP" : 0,
+            "Plack::Handler::HTTP::Server::Simple::PSGIServer" : 0,
+            "Plack::Util::Accessor" : 0,
+            "Plack::Server::Apache2" : 0,
+            "Plack::Server" : 0,
+            "Plack::Middleware::Refresh" : 0,
+            "Plack::Loader::Shotgun" : 0,
+            "Plack::Handler::HTTP::Server::PSGI" : 0,
+            "Plack::Recursive::ForwardRequest" : 0,
+            "Plack::App::URLMap" : 0,
+            "Plack::Server::Standalone::Prefork" : 0,
+            "Plack::Middleware::Conditional" : 0,
+            "Plack::Server::Standalone" : 0,
+            "Plack::Middleware::BufferedStreaming" : 0,
+            "Plack::TempBuffer" : 0,
+            "Plack::Test::Suite" : 0,
+            "Plack::Middleware::Writer" : 0,
+            "Plack::Util::Prototype" : 0,
+            "Plack::TempBuffer::File" : 0,
+            "Plack::Server::Apache1" : 0,
+            "Plack" : "0.9980",
+            "Plack::TempBuffer::Auto" : 0,
+            "Plack::Component" : 0,
+            "Plack::Loader::Restarter" : 0,
+            "Plack::App::Directory" : 0,
+            "Plack::Test::MockHTTP" : 0,
+            "Plack::App::CGIBin" : 0,
+            "Plack::Request::Upload" : 0,
+            "Plack::Middleware" : 0,
+            "Plack::Handler::FCGI" : 0,
+            "Plack::Middleware::XSendfile" : 0,
+            "Plack::Middleware::Lint" : 0,
+            "Plack::Handler::Standalone" : 0,
+            "Plack::Middleware::RearrangeHeaders" : 0,
+            "Plack::Middleware::AccessLog" : 0,
+            "Plack::Middleware::ContentLength" : 0,
+            "Plack::Handler::Apache2" : 0,
+            "Plack::Middleware::Head" : 0,
+            "Plack::Middleware::JSONP" : 0,
+            "Plack::Util::IOWithPath" : 0,
+            "Plack::Middleware::Auth::Basic" : 0,
+            "Plack::Builder" : 0,
+            "Plack::Handler::CGI::Writer" : 0,
+            "Plack::MIME" : 0,
+            "Plack::Middleware::LighttpdScriptNameFix" : 0,
+            "Plack::Middleware::ContentMD5" : 0,
+            "Plack::Loader" : 0,
+            "Plack::Server::ServerSimple" : "0.9980",
+            "Plack::Util" : 0,
+            "Plack::Middleware::XFramework" : 0,
+            "Plack::HTTPParser" : 0,
+            "Plack::Middleware::IIS6ScriptNameFix" : 0,
+            "HTTP::Server::PSGI" : 0,
+            "Plack::Middleware::Log4perl" : 0,
+            "Plack::Runner" : 0,
+            "Plack::Middleware::Chunked" : 0,
+            "Plack::Test::Server" : 0,
+            "Plack::Middleware::LogDispatch" : 0,
+            "Plack::Middleware::SimpleLogger" : 0,
+            "Plack::Handler::CGI" : 0,
+            "Plack::Middleware::ConditionalGET" : 0,
+            "Plack::Middleware::SimpleContentFilter" : 0,
+            "Plack::Middleware::Recursive" : 0,
+            "Plack::Server::FCGI" : 0,
+            "Plack::Server::CGI" : 0,
+            "Plack::App::File" : 0,
+            "Plack::App::PSGIBin" : 0,
+            "Plack::Handler" : 0,
+            "Plack::Middleware::HTTPExceptions" : 0,
+            "Plack::Response" : "0.9980",
+            "Plack::Middleware::StackTrace" : 0,
+            "Plack::Middleware::AccessLog::Timed" : 0
+         },
+         "version" : "0.9980",
+         "name" : "Plack",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::Requires" : "0",
+               "Try::Tiny" : "0",
+               "Hash::MultiValue" : "0.05",
+               "parent" : "0",
+               "URI" : "1.36",
+               "Pod::Usage" : "0",
+               "Devel::StackTrace" : "1.23",
+               "ExtUtils::MakeMaker" : "6.42",
+               "HTTP::Body" : "1.06",
+               "HTTP::Message" : "5.814",
+               "Test::More" : "0.88",
+               "File::ShareDir" : "1.00",
+               "Test::TCP" : "0.11",
+               "LWP::UserAgent" : "5.814",
+               "Filesys::Notify::Simple" : "0",
+               "Devel::StackTrace::AsHTML" : "0.11"
+            }
+         },
+         "dist" : "Plack-0.9980",
+         "pathname" : "M/MI/MIYAGAWA/Plack-0.9980.tar.gz",
+         "module" : "Plack"
+      },
+      "Devel::StackTrace" : {
+         "provides" : {
+            "Devel::StackTrace::Frame" : "1.27",
+            "Devel::StackTrace" : "1.27"
+         },
+         "version" : "1.27",
+         "name" : "Devel::StackTrace",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.31"
+            },
+            "build" : {
+               "Scalar::Util" : "0",
+               "Test::More" : "0.88",
+               "File::Spec" : "0"
+            }
+         },
+         "dist" : "Devel-StackTrace-1.27",
+         "pathname" : "D/DR/DROLSKY/Devel-StackTrace-1.27.tar.gz",
+         "module" : "Devel::StackTrace"
+      },
+      "Test::Tester" : {
+         "provides" : {
+            "Test::Tester::Capture" : 0,
+            "Test::Tester::Delegate" : 0,
+            "SmallTest" : 0,
+            "Test::Tester" : "0.107",
+            "MyTest" : 0,
+            "Test::Tester::CaptureRunner" : 0
+         },
+         "version" : "0.107",
+         "name" : "Test::Tester",
+         "requires" : {
+            "configure" : {},
+            "build" : {
+               "Test::Builder" : "0"
+            }
+         },
+         "dist" : "Test-Tester-0.107",
+         "pathname" : "F/FD/FDALY/Test-Tester-0.107.tar.gz",
+         "module" : "Test::Tester"
+      },
+      "HTTP::Body" : {
+         "provides" : {
+            "HTTP::Body::XForms" : "1.12",
+            "HTTP::Body" : "1.12",
+            "HTTP::Body::XFormsMultipart" : "1.12",
+            "PAML" : 0,
+            "HTTP::Body::OctetStream" : "1.12",
+            "HTTP::Body::UrlEncoded" : "1.12",
+            "HTTP::Body::MultiPart" : "1.12"
+         },
+         "version" : "1.12",
+         "name" : "HTTP::Body",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.31"
+            },
+            "build" : {
+               "Test::More" : "0.86",
+               "IO::File" : "1.14",
+               "HTTP::Headers" : "0",
+               "File::Temp" : "0.14",
+               "Test::Deep" : "0",
+               "Carp" : "0"
+            }
+         },
+         "dist" : "HTTP-Body-1.12",
+         "pathname" : "G/GE/GETTY/HTTP-Body-1.12.tar.gz",
+         "module" : "HTTP::Body"
+      },
+      "HTTP::Cookies" : {
+         "provides" : {
+            "HTTP::Cookies::Microsoft" : "6.00",
+            "HTTP::Cookies::Netscape" : "6.00",
+            "HTTP::Cookies" : "6.00"
+         },
+         "version" : "6.00",
+         "name" : "HTTP::Cookies",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "HTTP::Headers::Util" : "6",
+               "Time::Local" : "0",
+               "HTTP::Date" : "6"
+            }
+         },
+         "dist" : "HTTP-Cookies-6.00",
+         "pathname" : "G/GA/GAAS/HTTP-Cookies-6.00.tar.gz",
+         "module" : "HTTP::Cookies"
+      },
+      "HTTP::Message" : {
+         "provides" : {
+            "HTTP::Headers::Util" : "6.00",
+            "HTTP::Config" : "6.00",
+            "HTTP::Headers::ETag" : "6.00",
+            "HTTP::Status" : "6.00",
+            "HTTP::Message" : "6.02",
+            "HTTP::Request::Common" : "6.00",
+            "HTTP::Headers::Auth" : "6.00",
+            "HTTP::Headers" : "6.00",
+            "HTTP::Response" : "6.01",
+            "HTTP::Request" : "6.00"
+         },
+         "version" : "6.02",
+         "name" : "HTTP::Message",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "IO::Uncompress::Inflate" : "0",
+               "IO::Uncompress::Gunzip" : "0",
+               "URI" : "1.10",
+               "IO::Compress::Gzip" : "0",
+               "LWP::MediaTypes" : "6",
+               "IO::Uncompress::RawInflate" : "0",
+               "MIME::QuotedPrint" : "0",
+               "Encode::Locale" : "1",
+               "Compress::Raw::Zlib" : "0",
+               "Encode" : "2.12",
+               "HTTP::Date" : "6",
+               "IO::Compress::Deflate" : "0",
+               "MIME::Base64" : "2.1",
+               "HTML::Parser" : "3.33",
+               "IO::Compress::Bzip2" : "2.021",
+               "IO::Uncompress::Bunzip2" : "2.021"
+            }
+         },
+         "dist" : "HTTP-Message-6.02",
+         "pathname" : "G/GA/GAAS/HTTP-Message-6.02.tar.gz",
+         "module" : "HTTP::Headers"
+      },
+      "HTTP::Date" : {
+         "provides" : {
+            "HTTP::Date" : "6.00"
+         },
+         "version" : "6.00",
+         "name" : "HTTP::Date",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "Time::Local" : "0"
+            }
+         },
+         "dist" : "HTTP-Date-6.00",
+         "pathname" : "G/GA/GAAS/HTTP-Date-6.00.tar.gz",
+         "module" : "HTTP::Date"
+      },
+      "Filesys::Notify::Simple" : {
+         "provides" : {
+            "Filesys::Notify::Simple" : "0.07"
+         },
+         "version" : "0.07",
+         "name" : "Filesys::Notify::Simple",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0",
+               "Filter::Util::Call" : "0",
+               "ExtUtils::MakeMaker" : "6.42",
+               "Test::SharedFork" : "0"
+            }
+         },
+         "dist" : "Filesys-Notify-Simple-0.07",
+         "pathname" : "M/MI/MIYAGAWA/Filesys-Notify-Simple-0.07.tar.gz",
+         "module" : "Filesys::Notify::Simple"
+      },
+      "Devel::StackTrace::AsHTML" : {
+         "provides" : {
+            "Devel::StackTrace::AsHTML" : "0.11"
+         },
+         "version" : "0.11",
+         "name" : "Devel::StackTrace::AsHTML",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0",
+               "Filter::Util::Call" : "0",
+               "Devel::StackTrace" : "0",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "Devel-StackTrace-AsHTML-0.11",
+         "pathname" : "M/MI/MIYAGAWA/Devel-StackTrace-AsHTML-0.11.tar.gz",
+         "module" : "Devel::StackTrace::AsHTML"
+      },
+      "HTML::Parser" : {
+         "provides" : {
+            "HTML::LinkExtor" : "3.60",
+            "HTML::TokeParser" : "3.57",
+            "HTML::HeadParser" : "3.66",
+            "HTML::Parser" : "3.68",
+            "HTML::Entities" : "3.68",
+            "HTML::PullParser" : "3.57",
+            "HTML::Filter" : "3.57"
+         },
+         "version" : "3.68",
+         "name" : "HTML::Parser",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "XSLoader" : "0",
+               "HTML::Tagset" : "3"
+            }
+         },
+         "dist" : "HTML-Parser-3.68",
+         "pathname" : "G/GA/GAAS/HTML-Parser-3.68.tar.gz",
+         "module" : "HTML::Parser"
+      },
+      "HTML::Tagset" : {
+         "provides" : {
+            "HTML::Tagset" : "3.20"
+         },
+         "version" : "3.20",
+         "name" : "HTML::Tagset",
+         "requires" : {
+            "configure" : {},
+            "build" : {}
+         },
+         "dist" : "HTML-Tagset-3.20",
+         "pathname" : "P/PE/PETDANCE/HTML-Tagset-3.20.tar.gz",
+         "module" : "HTML::Tagset"
+      },
+      "Class::Inspector" : {
+         "provides" : {
+            "Class::Inspector::Functions" : "1.25",
+            "Class::Inspector" : "1.25"
+         },
+         "version" : "1.25",
+         "name" : "Class::Inspector",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.47",
+               "File::Spec" : "0.80",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "Class-Inspector-1.25",
+         "pathname" : "A/AD/ADAMK/Class-Inspector-1.25.tar.gz",
+         "module" : "Class::Inspector"
+      },
+      "WWW::RobotRules" : {
+         "provides" : {
+            "WWW::RobotRules::InCore" : 0,
+            "WWW::RobotRules::AnyDBM_File" : "6.00",
+            "WWW::RobotRules" : "6.01"
+         },
+         "version" : "6.01",
+         "name" : "WWW::RobotRules",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "URI" : "1.10",
+               "Fcntl" : "0",
+               "AnyDBM_File" : "0"
+            }
+         },
+         "dist" : "WWW-RobotRules-6.01",
+         "pathname" : "G/GA/GAAS/WWW-RobotRules-6.01.tar.gz",
+         "module" : "WWW::RobotRules"
+      },
+      "LWP" : {
+         "provides" : {
+            "LWP::Protocol::ftp" : 0,
+            "LWP::Protocol::cpan" : 0,
+            "LWP::Protocol::data" : 0,
+            "LWP::Protocol::http::Socket" : 0,
+            "LWP::Protocol::MyFTP" : 0,
+            "LWP::Protocol::nogo" : 0,
+            "LWP::Protocol::nntp" : 0,
+            "LWP::Simple" : "6.00",
+            "LWP::Protocol::mailto" : 0,
+            "LWP::Protocol::http::SocketMethods" : 0,
+            "LWP::DebugFile" : 0,
+            "LWP::RobotUA" : "6.00",
+            "LWP::Protocol::gopher" : 0,
+            "LWP::ConnCache" : "6.02",
+            "LWP::Protocol::file" : 0,
+            "LWP::Authen::Digest" : 0,
+            "LWP::Protocol::http" : 0,
+            "LWP::MemberMixin" : 0,
+            "LWP::Protocol::GHTTP" : 0,
+            "LWP::UserAgent" : "6.02",
+            "LWP::Protocol::loopback" : 0,
+            "LWP::Debug" : 0,
+            "LWP::Authen::Ntlm" : "6.00",
+            "LWP::Authen::Basic" : 0,
+            "LWP::Protocol" : "6.00",
+            "LWP" : "6.02"
+         },
+         "version" : "6.02",
+         "name" : "LWP",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "0"
+            },
+            "build" : {
+               "URI::Escape" : "0",
+               "LWP::MediaTypes" : "6",
+               "Encode::Locale" : "0",
+               "HTTP::Status" : "6",
+               "HTTP::Negotiate" : "6",
+               "File::Listing" : "6",
+               "Encode" : "2.12",
+               "Digest::MD5" : "0",
+               "HTML::Entities" : "0",
+               "HTTP::Daemon" : "6",
+               "Net::HTTP" : "6",
+               "URI" : "1.10",
+               "Net::FTP" : "2.58",
+               "HTML::HeadParser" : "0",
+               "HTTP::Cookies" : "6",
+               "HTTP::Date" : "6",
+               "HTTP::Request::Common" : "6",
+               "MIME::Base64" : "2.1",
+               "HTTP::Response" : "6",
+               "IO::Select" : "0",
+               "IO::Socket" : "0",
+               "WWW::RobotRules" : "6",
+               "HTTP::Request" : "6"
+            }
+         },
+         "dist" : "libwww-perl-6.02",
+         "pathname" : "G/GA/GAAS/libwww-perl-6.02.tar.gz",
+         "module" : "LWP::UserAgent"
+      }
+   },
+   "generator" : "carton v0.1_0"
+}
