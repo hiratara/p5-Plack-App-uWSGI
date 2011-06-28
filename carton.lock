@@ -654,6 +654,26 @@
          "pathname" : "G/GE/GETTY/HTTP-Body-1.12.tar.gz",
          "module" : "HTTP::Body"
       },
+      "HTTP::Parser::XS" : {
+         "provides" : {
+            "HTTP::Parser::XS::PP" : 0,
+            "HTTP::Parser::XS" : "0.14"
+         },
+         "version" : "0.14",
+         "name" : "HTTP::Parser::XS",
+         "requires" : {
+            "configure" : {
+               "ExtUtils::MakeMaker" : "6.42"
+            },
+            "build" : {
+               "Test::More" : "0.96",
+               "ExtUtils::MakeMaker" : "6.42"
+            }
+         },
+         "dist" : "HTTP-Parser-XS-0.14",
+         "pathname" : "K/KA/KAZUHO/HTTP-Parser-XS-0.14.tar.gz",
+         "module" : "HTTP::Parser::XS"
+      },
       "HTTP::Cookies" : {
          "provides" : {
             "HTTP::Cookies::Microsoft" : "6.00",

@@ -2,13 +2,17 @@ NAME
     Plack::App::uWSGI - a PSGI frontend of uwsgi.
 
 SYNOPSIS
-      use Plack::App::uWSGI;
+      $ ./uwsgi --plugins python -s :4321 -w simple_app
+      $ plackup -MPlack::App::uWSGI -e 'Plack::App::uWSGI->new(pass => "localhost:4321", modifier1 => "0")->to_app'
+
+WARNING
+    This module is under development. Few features have been implemented.
 
 DESCRIPTION
-    Plack::App::uWSGI is
+    Plack::App::uWSGI proxies $env to uWSGI servers.
 
 AUTHOR
-    hiratara <hiratara@cpan.org>
+    Masahiro Honma <hiratara@cpan.org>
 
 SEE ALSO
 LICENSE
