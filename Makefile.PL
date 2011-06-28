@@ -1,6 +1,7 @@
 use inc::Module::Install;
 name 'Plack-App-uWSGI';
 all_from 'lib/Plack/App/uWSGI.pm';
+readme_from 'lib/Plack/App/uWSGI.pm';
 
 # requires '';
 

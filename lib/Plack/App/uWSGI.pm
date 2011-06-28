@@ -1,14 +1,14 @@
 package Plack::App::uWSGI;
 use strict;
 use warnings;
-our $VERSION = '0.01';
+our $VERSION = '0.01_1';
 
 1;
 __END__
 
 =head1 NAME
 
-Plack::App::uWSGI -
+Plack::App::uWSGI - a PSGI frontend of uwsgi.
 
 =head1 SYNOPSIS
 

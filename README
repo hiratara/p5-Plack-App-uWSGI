@@ -1,27 +1,17 @@
-This is Perl module Plack::App::uWSGI.
+NAME
+    Plack::App::uWSGI - a PSGI frontend of uwsgi.
 
-INSTALLATION
+SYNOPSIS
+      use Plack::App::uWSGI;
 
-Plack::App::uWSGI installation is straightforward. If your CPAN shell is set up,
-you should just be able to do
+DESCRIPTION
+    Plack::App::uWSGI is
 
-    % cpan Plack::App::uWSGI
+AUTHOR
+    hiratara <hiratara@cpan.org>
 
-Download it, unpack it, then build it as per the usual:
+SEE ALSO
+LICENSE
+    This library is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
-    % perl Makefile.PL
-    % make && make test
-
-Then install it:
-
-    % make install
-
-DOCUMENTATION
-
-Plack::App::uWSGI documentation is available as in POD. So you can do:
-
-    % perldoc Plack::App::uWSGI
-
-to read the documentation online with your favorite pager.
-
-hiratara
