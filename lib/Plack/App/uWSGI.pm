@@ -6,7 +6,7 @@ use AnyEvent::Handle;
 use AnyEvent::Socket;
 use HTTP::Parser::XS qw(parse_http_response HEADERS_AS_ARRAYREF);
 use parent 'Plack::Component';
-use Plack::Util::Accessor qw/pass modifier1/;
+use Plack::Util::Accessor qw/pass param modifier1/;
 
 our $VERSION = '0.01_1';
 
@@ -85,7 +85,7 @@ sub call {
                 }
             });
 
-            $self->send_env($handle, $env);
+            $self->send_env($handle, {%$env, %{$self->param || {}}});
             $handle->push_read(chunk => 4, sub {
                 my ($handle, $chunk) = @_;
                 my ($modifier1, $length, $modifier2) = unpack "CvC", $chunk;
