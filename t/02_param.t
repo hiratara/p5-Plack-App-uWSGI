@@ -16,7 +16,7 @@ Test::TCP::test_tcp(
         my $port = shift;
 
         exec_uwsgi(
-            $uwsgi => '--plugins', 'python', '-s', ":$port", '-w', 'app',
+            $uwsgi => '--plugins', 'python', '-s', ":$port", '-w', 'app2',
         );
     },
 
@@ -24,14 +24,15 @@ Test::TCP::test_tcp(
         my $port = shift;
 
         my $app = Plack::App::uWSGI->new(
-            pass => "localhost:$port", modifier1 => "0"
+            pass => "localhost:$port", modifier1 => "0",
+            param => {SCRIPT_NAME => '/dummy'}
         )->to_app;
 
         test_psgi $app, sub {
             my $cb = shift;
             my $res = $cb->(GET '/');
-            is $res->code, 200;
-            is $res->content, "OK\n";
+            ok $res->is_success;
+            is $res->header('X-Script-Name'), '/dummy';
         };
     },
 );
